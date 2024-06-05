@@ -16,7 +16,7 @@ function Footer() {
                   <i className="fi fi-sr-phone-call text-sm"></i> 833 110 2842
                 </p>
                 <p>
-                  <i class="fi fi-sr-envelope text-sm"></i>{" "}
+                  <i className="fi fi-sr-envelope text-sm"></i>{" "}
                   atencion.cliente@gmail.com
                 </p>
               </div>
@@ -62,7 +62,7 @@ function Footer() {
             <div className="flex justify-center">
               <form className="w-11/12">
                 <label
-                  for="default-search"
+                  htmlFor="default-search"
                   className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
                 >
                   Search
