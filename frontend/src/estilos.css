@@ -111,3 +111,15 @@
 #botones:active {
   background-color: blueviolet;
 }
+
+#boton-slider {
+  font-weight: bolder;
+  color: rgb(41, 41, 119);
+  transition: all 0.3s;
+}
+
+#boton-slider:hover {
+  background-color: rgb(41, 41, 119);
+  color: rgb(219, 186, 38);
+  transform: scale(1.1);
+}

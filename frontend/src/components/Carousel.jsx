@@ -1,4 +1,5 @@
 import React from "react";
+import "../estilos.css";
 
 function Carousel() {
   return (
@@ -8,7 +9,7 @@ function Carousel() {
       data-carousel="slide"
     >
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-700  ease-in-out" data-carousel-item>
           <img
             src="/slider1.jpg"
             className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
@@ -26,35 +27,28 @@ function Carousel() {
 
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
           <div className="grid grid-cols-2">
-            <div className="col-span-1">
-              <h1 className="text-xl font-bold">Slider de prueba</h1>
-              <button
-                type="button"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-              >
-                Prueba
-              </button>
+            <div className="col-span-1 bg-sky-400">
+              <div className=" px-3">
+                <div className="flex justify-center mb-4 text-center">
+                  <h1 className="text-3xl font-bold text-white ">
+                    OBESIDAD EN PERROS Y GATOS
+                  </h1>
+                </div>
+                <div className="flex justify-center">
+                  <button
+                    id="boton-slider"
+                    type="button"
+                    className="font-bold bg-amber-400 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 "
+                  >
+                    INFÓRMATE AQUÍ
+                  </button>
+                </div>
+              </div>
             </div>
             <div className="col-span-1">
               <img src="/perro.jpg" alt="" />
             </div>
           </div>
-        </div>
-
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/docs/images/carousel/carousel-4.svg"
-            className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
-        </div>
-
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="/docs/images/carousel/carousel-5.svg"
-            className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="..."
-          />
         </div>
       </div>
 
@@ -72,27 +66,6 @@ function Carousel() {
           aria-current="false"
           aria-label="Slide 2"
           data-carousel-slide-to="1"
-        ></button>
-        <button
-          type="button"
-          className="w-3 h-3 rounded-full bg-black"
-          aria-current="false"
-          aria-label="Slide 3"
-          data-carousel-slide-to="2"
-        ></button>
-        <button
-          type="button"
-          className="w-3 h-3 rounded-full bg-black"
-          aria-current="false"
-          aria-label="Slide 4"
-          data-carousel-slide-to="3"
-        ></button>
-        <button
-          type="button"
-          className="w-3 h-3 rounded-full bg-black"
-          aria-current="false"
-          aria-label="Slide 5"
-          data-carousel-slide-to="4"
         ></button>
       </div>
 
