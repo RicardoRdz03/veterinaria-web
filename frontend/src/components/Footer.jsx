@@ -4,7 +4,7 @@ import "../../node_modules/@flaticon/flaticon-uicons/css/all/all.css";
 function Footer() {
   return (
     <>
-      <footer className="bg-blue-950">
+      <footer className="bg-blue-950 pb-8">
         <div className="grid grid-cols-3">
           <div className="mt-9 col-span-3 sm:col-span-3 md:col-span-1 lg:col-span-1 xl:col-span-1">
             <div className="flex flex-col items-center justify-center">

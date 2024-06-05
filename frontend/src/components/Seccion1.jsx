@@ -2,7 +2,10 @@ import React from "react";
 
 function Seccion1() {
   return (
-    <div className="grid grid-cols-4 gap-3 mt-16 mx-2 sm:mx-2 md:mx-8 lg:mx-32 xl:mx-32">
+    <div
+      id="cerca-de-ti"
+      className="grid grid-cols-4 gap-3 mt-16 mx-2 sm:mx-2 md:mx-8 lg:mx-32 xl:mx-32"
+    >
       <div className="col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex justify-center ">
         <div className=" bg-sky-500 rounded-md py-14 w-11/12">
           <div className="flex justify-center">

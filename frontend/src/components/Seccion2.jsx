@@ -3,7 +3,7 @@ import "../estilos.css";
 
 function Seccion2() {
   return (
-    <div className="grid grid-cols-3 mt-16 mb-16">
+    <div id="consejos" className="grid grid-cols-3 mt-16 mb-16">
       <div
         id="fondo1"
         className="flex justify-center items-center px-7 col-span-3 sm:col-span-3 md:col-span-3 lg:col-span-1 xl:col-span-1"

@@ -8,7 +8,7 @@ function Navbar() {
       <header id="header">
         <nav id="navbar">
           <h1 className="text-3xl text-white" id="logo">
-            <i className="fi fi-sr-paw-heart"></i> LUCKY
+            LUCKY <i className="fi fi-sr-paw-heart"></i>
           </h1>
 
           <label id="label_hamburguesa" htmlFor="menu_hamburguesa">
@@ -25,13 +25,13 @@ function Navbar() {
               </a>
             </li>
             <li id="li_links">
-              <a id="link" href="#">
-                About
+              <a id="link" href="#cerca-de-ti">
+                Cerca de ti
               </a>
             </li>
             <li id="li_links">
-              <a id="link" href="#">
-                Compras
+              <a id="link" href="#consejos">
+                Consejos
               </a>
             </li>
           </ul>

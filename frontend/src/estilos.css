@@ -8,7 +8,7 @@
 @media (max-width: 768px) {
   #entrada {
     background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
-      url(/perrocortado.jpg);
+      url(/perrocortado1.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -42,7 +42,7 @@
   left: 0;
   position: absolute;
   width: 100%;
-  background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9));
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,17 +109,5 @@
 }
 
 #botones:active {
-  background-color: blueviolet;
-}
-
-#boton-slider {
-  font-weight: bolder;
-  color: rgb(41, 41, 119);
-  transition: all 0.3s;
-}
-
-#boton-slider:hover {
-  background-color: rgb(41, 41, 119);
-  color: rgb(219, 186, 38);
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
